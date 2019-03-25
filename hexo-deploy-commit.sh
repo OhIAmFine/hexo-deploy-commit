@@ -4,7 +4,7 @@ sed -e 's/=/:/g;s/"/ /g' file.sh> _config1.yml
 
 .  ./file.sh
 
-newMessage=$message
+# newMessage=$message
 
 commitMessage=$1
 
