@@ -1,5 +1,5 @@
-deploy:
-  type: git
-  repo: https://github.com/OhIAmFine/ohiamfine.github.io #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
-  branch: master #published
-  message: test
+deploy:   
+  type: git   
+  repo: https://github.com/OhIAmFine/ohiamfine.github.io #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io   
+  branch: master #published   
+  message: add a new message 
