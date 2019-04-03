@@ -4,11 +4,11 @@ Deploy Hexo website with your own message, instead of change commit message ever
 
 # Usage
 
-Clone this project in your `_config.yml` directory
+- Clone this project in your `_config.yml` directory
 
-change default commit message into another you want ,like `a sample message ` in `_congfig.yml` 
+- change default commit message into another you want ,like `a sample message ` in `_congfig.yml` 
 
-Every time your want change your commit, run 
+- Every time your want change your commit, run 
 `./hexo-deploy-commit.sh  {your message}` in your terminal
 
-Then run `hexo deploy`
+- Then run `hexo deploy`
