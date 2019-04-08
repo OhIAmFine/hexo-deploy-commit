@@ -1,8 +1,8 @@
-sed -e 's/:[^://]/="/g;s/$/"/g' _config.yml> file.sh
+sed -e 's/:[^://]/="/1;s/$/"/g' _config.yml> file.sh
 
 rm -rf _config.yml
 
-sed -e 's/=/:/g;s/"/ /g' file.sh> _config.yml
+sed -e 's/=/:/1;s/"/ /g' file.sh> _config.yml
 
 .  ./file.sh
 
